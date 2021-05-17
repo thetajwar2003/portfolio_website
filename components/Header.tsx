@@ -2,43 +2,64 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header className="text-gray-400 bg-gray-900 body-font">
+    <header className="text-gray-400 bg-indigo-500 body-font" id="head">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+        <a
+          className="flex title-font font-medium items-center text-white mb-4 md:mb-0"
+          href="/"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-            viewBox="0 0 24 24"
+            x="0px"
+            y="0px"
+            width="35"
+            height="35"
+            viewBox="0 0 172 172"
           >
-            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            <g
+              fill="none"
+              fill-rule="nonzero"
+              stroke="none"
+              stroke-width="1"
+              stroke-linecap="butt"
+              stroke-linejoin="miter"
+              stroke-miterlimit="10"
+              stroke-dasharray=""
+              stroke-dashoffset="0"
+              font-family="none"
+              font-weight="none"
+              font-size="none"
+              text-anchor="none"
+            >
+              <path d="M0,172v-172h172v172z" fill="none"></path>
+              <g fill="#ffffff">
+                <path d="M86,14.33333c-39.5815,0 -71.66667,32.08517 -71.66667,71.66667c0,39.5815 32.08517,71.66667 71.66667,71.66667c39.5815,0 71.66667,-32.08517 71.66667,-71.66667c0,-39.5815 -32.08517,-71.66667 -71.66667,-71.66667zM109.29167,64.60033h-17.91667v51.95833c0,2.97058 -2.40442,5.375 -5.375,5.375c-2.97058,0 -5.375,-2.40442 -5.375,-5.375v-51.95833h-17.91667c-2.97058,0 -5.375,-2.40442 -5.375,-5.375c0,-2.97058 2.40442,-5.375 5.375,-5.375h46.58333c2.97058,0 5.375,2.40442 5.375,5.375c0,2.97058 -2.40442,5.375 -5.375,5.375z"></path>
+              </g>
+            </g>
           </svg>
           <span className="ml-3 text-xl">Tajwar Rahman</span>
         </a>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <a className="mr-5 hover:text-white">First Link</a>
-          <a className="mr-5 hover:text-white">Second Link</a>
-          <a className="mr-5 hover:text-white">Third Link</a>
-          <a className="mr-5 hover:text-white">Fourth Link</a>
-        </nav>
-        <button className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
-          Button
-          <svg
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            className="w-4 h-4 ml-1"
-            viewBox="0 0 24 24"
+          <a className="mr-5 text-white hover:text-indigo-900" href="#about">
+            About Me
+          </a>
+          <a className="mr-5 text-white hover:text-indigo-900" href="#skills">
+            Skills
+          </a>
+          <a
+            className="mr-5 text-white hover:text-indigo-900 smooth-scroll"
+            href="#exp"
+            data-duration="2000"
           >
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </button>
+            Experience
+          </a>
+          <a className="mr-5 text-white hover:text-indigo-900" href="#proj">
+            Projects
+          </a>
+          <a className="mr-5 text-white hover:text-indigo-900" href="#contact">
+            Contact
+          </a>
+        </nav>
       </div>
     </header>
   );

@@ -1,0 +1,118 @@
+{
+  "bio": {
+    "description": "I'm a senior at Bronx Science who loves combining programming and math to build creative real-world applications.",
+    "coding": "I like creating programs using React, Swift, or Python, and I'm very interested in AI/ML",
+    "contact": "Feel free to reach out to me through email or just message me on Linkedin!"
+  },
+  "social": {
+    "email": "rahmantajwar131@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/tajwar-rahman-aa30851a3/",
+    "github": "https://github.com/thetajwar2003"
+  },
+  "skills": [
+    {
+      "name": "Python",
+      "desc": "Machine Learning, Data Science, Regression, Classification, Clustering, Django, Selenium"
+    },
+    {
+      "name": "Java",
+      "desc": "Object-Oriented, JDBC, Lambdas, Data Structures, Algorithms"
+    },
+    {
+      "name": "React/Next.js",
+      "desc": "JavaScript, TypeScript, Node.js, Full Stack"
+    },
+    {
+      "name": "SwiftUI",
+      "desc": "APIs, CreateML, CoreData, UI/UX Design"
+    },
+    {
+      "name": "Databases",
+      "desc": "MySQL, SQLite, PostgreSQL, Firebase, MongoDB"
+    },
+    {
+      "name": "Other Softwares/Frameworks",
+      "desc": "C#/C++, GoLang, Kotlin, Git, .NET, Heroku"
+    }
+  ],
+  "experiences": [
+    {
+      "company": "Slingshot Mentoring",
+      "website": "https://slingshotahead.com/",
+      "position": "Immersion Mentor",
+      "desc": [
+        "- Led a 6 week immersion program that provided an insight to an industry-level startup experience, resulting in almost $1000 in revenue",
+        "- Managed meetings to help students get familiarized with popular technologies such as React, Sass, and Node.js by creating lessons and demonstrations",
+        "- Introduced bugs of various difficulties in a Netflix clone to challenge and encourage students to think of new features"
+      ],
+      "type": "Part-Time",
+      "date": "Mar 2021 - May 2021"
+    },
+    {
+      "company": "HKP Solutions",
+      "website": "https://www.hkpsolutions.com/#/",
+      "position": "iOS Developer Intern",
+      "type": "Internship",
+      "desc": [
+        "- Ported existing applications from Android to iOS, adapting software to meet unique parameters",
+        "- Designed app mockups to improve UI/UX using Figma",
+        "- Collaborated with Backend Team to research and build an API for integration into the app"
+      ],
+      "date": "Dec 2020 - Mar 2021"
+    },
+    {
+      "company": "Slingshot Mentoring",
+      "website": "https://slingshotahead.com/",
+      "position": "Software Engineer",
+      "desc": [
+        "- Developed automation portal using React to increase productivity by providing mentors and interns the means to manage the planning, development, and execution of their startups",
+        "- Revised, modularized, and updated old codebases to modern development standards allowing the portal to load 10x faster",
+        "- Integrated Firebase cloud functions to automate sending emails and creating folders using Gmail and Google Drive APIs"
+      ],
+      "type": "Part-Time",
+      "date": "Oct 2020 - Feb 2021"
+    },
+    {
+      "company": "Slingshot Mentoring",
+      "website": "https://slingshotahead.com/",
+      "position": "Software Developer/Machine Learning Intern",
+      "desc": [
+        "- Worked to increase personal device security by providing continuous than one-time authentication to the user",
+        "- Achieved 97% accuracy on novel ML text classifying models created to uniquely identify users based on their stylometric features",
+        "- Developed a cross-platform app using React-Native and Firebase to collect stylometric data on which research was conducted and models were trained"
+      ],
+      "type": "Internship",
+      "date": "Jul 2020 - Oct 2020"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Learning Made Simple (LMS)",
+      "date": "02/23/2021",
+      "meta": "A learning management system, similar to Google Classroom, for students and teachers that makes remote learning easy. A teacher side applicaiton would allow the teacher to create classes, add students, make announcements, post assignments, and grade student's works. The student side application would allow the student to join a class, make announcements, and submit homework.",
+      "tags": "Next.js ∙ Firebase ∙ TypeScript ∙ SemanticUI",
+      "link": "https://github.com/thetajwar2003/learning-management-system"
+    },
+    {
+      "name": "Agora",
+      "date": "01/11/2021",
+      "meta": "An iOS ecommerce app specifically for trees and tree accessories. Integrated a serverless backend application, using MongoDB Atlas as the database, to the frontend iOS application.",
+      "tags": "Swift ∙ RestAPI ∙ Node.js ∙ MongoDB",
+      "link": "https://github.com/thetajwar2003/HKP-Final-Project"
+    },
+    {
+      "name": "AI Flappy Bird",
+      "date": "06/09/2020",
+      "meta": "An AI that learns and teaches itself the popular game Flappy Bird. It performed 48 generations, each with 60 Flappy Birds, before ending the simulation at 3 birds scoring 250 points",
+      "tags": "Python ∙ PyGame ∙ NEAT-python",
+      "link": "https://github.com/thetajwar2003/AI-Flappy-Bird-"
+    },
+    {
+      "name": "Google Assistant",
+      "date": "04/08/20",
+      "meta": "A voice assistant that would relay information about your inbox, events in your google calendar, youtube subscriptions, etc.",
+      "tags": "Python ∙ Google APIs ∙ Automation",
+      "link": "https://github.com/thetajwar2003/mini-google-assistant"
+    }
+  ]
+}
