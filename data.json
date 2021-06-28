@@ -5,7 +5,7 @@
     "contact": "Feel free to reach out to me through email or just message me on Linkedin!"
   },
   "social": {
-    "email": "rahmantajwar131@gmail.com",
+    "email": "tajwarr.cs@gmail.com",
     "linkedin": "https://www.linkedin.com/in/tajwar-rahman-aa30851a3/",
     "github": "https://github.com/thetajwar2003"
   },
@@ -39,7 +39,19 @@
     {
       "company": "Slingshot Mentoring",
       "website": "https://slingshotahead.com/",
-      "position": "Immersion Mentor",
+      "position": "Software Engineer",
+      "desc": [
+        "- Developed automation portal using React to increase productivity by providing mentors and interns the means to manage the planning, development, and execution of their startups",
+        "- Revised, modularized, and updated old codebases to modern development standards allowing the portal to load 10x faster",
+        "- Integrated Firebase cloud functions to automate sending emails and creating folders using Gmail and Google Drive APIs"
+      ],
+      "type": "Part-Time",
+      "date": "Oct 2020 -  May 2021"
+    },
+    {
+      "company": "Slingshot Mentoring",
+      "website": "https://slingshotahead.com/",
+      "position": "Tech Mentor",
       "desc": [
         "- Led a 6 week immersion program that provided an insight to an industry-level startup experience, resulting in almost $1000 in revenue",
         "- Managed meetings to help students get familiarized with popular technologies such as React, Sass, and Node.js by creating lessons and demonstrations",
@@ -63,18 +75,6 @@
     {
       "company": "Slingshot Mentoring",
       "website": "https://slingshotahead.com/",
-      "position": "Software Engineer",
-      "desc": [
-        "- Developed automation portal using React to increase productivity by providing mentors and interns the means to manage the planning, development, and execution of their startups",
-        "- Revised, modularized, and updated old codebases to modern development standards allowing the portal to load 10x faster",
-        "- Integrated Firebase cloud functions to automate sending emails and creating folders using Gmail and Google Drive APIs"
-      ],
-      "type": "Part-Time",
-      "date": "Oct 2020 - Feb 2021"
-    },
-    {
-      "company": "Slingshot Mentoring",
-      "website": "https://slingshotahead.com/",
       "position": "Software Developer/Machine Learning Intern",
       "desc": [
         "- Worked to increase personal device security by providing continuous than one-time authentication to the user",
@@ -87,18 +87,18 @@
   ],
   "projects": [
     {
+      "name": "Crypto Market",
+      "date": "01/11/2021",
+      "meta": "An iOS price-tracking app for cryptocurrencies in the rapidly growing crypto currency space. Used CoinMarketCap's API to display accurate and real time data about the top 100 trending cryptocurrencies, and scraped detail information about each currency from CoinMarket's in-depth sites.",
+      "tags": "Swift ∙ WebScraping ∙ CoinMarketCap API",
+      "link": "https://github.com/thetajwar2003/CryptoMarket"
+    },
+    {
       "name": "Learning Made Simple (LMS)",
       "date": "02/23/2021",
       "meta": "A learning management system, similar to Google Classroom, for students and teachers that makes remote learning easy. A teacher side applicaiton would allow the teacher to create classes, add students, make announcements, post assignments, and grade student's works. The student side application would allow the student to join a class, make announcements, and submit homework.",
       "tags": "Next.js ∙ Firebase ∙ TypeScript ∙ SemanticUI",
       "link": "https://github.com/thetajwar2003/learning-management-system"
-    },
-    {
-      "name": "Agora",
-      "date": "01/11/2021",
-      "meta": "An iOS ecommerce app specifically for trees and tree accessories. Integrated a serverless backend application, using MongoDB Atlas as the database, to the frontend iOS application.",
-      "tags": "Swift ∙ RestAPI ∙ Node.js ∙ MongoDB",
-      "link": "https://github.com/thetajwar2003/HKP-Final-Project"
     },
     {
       "name": "AI Flappy Bird",
@@ -113,6 +113,24 @@
       "meta": "A voice assistant that would relay information about your inbox, events in your google calendar, youtube subscriptions, etc.",
       "tags": "Python ∙ Google APIs ∙ Automation",
       "link": "https://github.com/thetajwar2003/mini-google-assistant"
+    }
+  ],
+  "education": [
+    {
+      "school": "City College of New York (CUNY)",
+      "graduation": "Expected: May 2025",
+      "location": "New York City, NY",
+      "info": ["B.S. in Computer Science"]
+    },
+    {
+      "school": "The Bronx High School of Science",
+      "graduation": "Sept 2017 - June 2021",
+      "location": "Bronx, NY",
+      "info": [
+        "High School Diploma",
+        "GPA: 3.9/4.0",
+        "Vice President of the Machine Learning Club"
+      ]
     }
   ]
 }

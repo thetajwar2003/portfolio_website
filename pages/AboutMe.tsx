@@ -20,7 +20,7 @@ export default function AboutMe() {
           <span className="inline-flex">
             <a
               className="mr-3 text-gray-400"
-              href="mailto:rahmantajwar131@gmail.com"
+              href="mailto:tajwarr.cs@gmail.com"
               target="_blank"
             >
               <svg
@@ -129,7 +129,7 @@ export default function AboutMe() {
           <img
             className="object-cover object-center rounded tajimg"
             alt="hero"
-            src="https://lh3.googleusercontent.com/d/1EinmYzeq0lkiB-aENS4tzBvEeTEgkeGt"
+            src="https://lh3.googleusercontent.com/d/1VRT2jDkE4WqLKq2R_G38HHOfmTsgWxlp"
           />
         </div>
       </div>

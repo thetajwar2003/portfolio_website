@@ -9,13 +9,14 @@ import Skills from "./Skills";
 import Footer from "../components/Footer";
 import Experience from "./Experience";
 import Contact from "./Contact";
+import Education from "./Education";
 
 export default function Home() {
   return (
     <Head>
       {/* Open graph meta */}
       <title>Tajwar Rahman</title>
-      <meta property="og:title" content="Tajwar rahman" />
+      <meta property="og:title" content="Tajwar Rahman" />
       <meta
         property="og:description"
         content="This is my personal portfolio website."
@@ -31,6 +32,7 @@ export default function Home() {
       <Skills />
       <Experience />
       <Projects />
+      <Education />
       <Contact />
       <Footer />
     </Head>
