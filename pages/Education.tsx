@@ -4,7 +4,7 @@ import { education } from "../data.json";
 
 export default function Education() {
   return (
-    <section className="text-gray-400 body-font bg-gray-900">
+    <section className="text-gray-400 body-font bg-gray-900" id="edu">
       <div className="container px-5 pb-32 mx-auto">
         <div className="container px-5 mx-auto">
           <div className="text-center mb-10">
