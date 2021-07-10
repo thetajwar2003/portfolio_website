@@ -3,7 +3,7 @@
   "bio": {
     "description": "I'm a senior at Bronx Science who loves combining programming and math to build creative real-world applications.",
     "coding": "I like creating programs using React, Swift, or Python, and I'm very interested in AI/ML",
-    "contact": "Feel free to reach out to me through email or just message me on Linkedin!"
+    "contact": "Feel free to reach out to me through email or just message me on LinkedIn!"
   },
   "social": {
     "email": "tajwarr.cs@gmail.com",
@@ -42,8 +42,8 @@
       "website": "https://slingshotahead.com/",
       "position": "Software Engineer",
       "desc": [
-        "- Developed automation portal using React to increase productivity by providing mentors and interns the means to manage the planning, development, and execution of their startups",
-        "- Revised, modularized, and updated old codebases to modern development standards allowing the portal to load 10x faster",
+        "- Developed an automation portal using React to increase productivity by providing mentors and interns the means to manage the planning, development, and execution of their startups",
+        "- Revised, modularized, and updated old code bases to modern development standards allowing the portal to load 10x faster",
         "- Integrated Firebase cloud functions to automate sending emails and creating folders using Gmail and Google Drive APIs"
       ],
       "type": "Part-Time",
@@ -54,7 +54,7 @@
       "website": "https://slingshotahead.com/",
       "position": "Tech Mentor",
       "desc": [
-        "- Led a 6 week immersion program that provided an insight to an industry-level startup experience, resulting in almost $1000 in revenue",
+        "- Led a 6-week immersion program that provided an insight into an industry-level startup experience, resulting in almost $1000 in revenue",
         "- Managed meetings to help students get familiarized with popular technologies such as React, Sass, and Node.js by creating lessons and demonstrations",
         "- Introduced bugs of various difficulties in a Netflix clone to challenge and encourage students to think of new features"
       ],
@@ -90,21 +90,21 @@
     {
       "name": "Crypto Market",
       "date": "01/11/2021",
-      "meta": "An iOS price-tracking app for cryptocurrencies in the rapidly growing crypto currency space. Used CoinMarketCap's API to display accurate and real time data about the top 100 trending cryptocurrencies, and scraped detail information about each currency from CoinMarket's in-depth sites.",
+      "meta": "An iOS price-tracking app for cryptocurrencies in the rapidly growing cryptocurrency space. Used CoinMarketCap's API to display accurate and real-time data about the top 100 trending cryptocurrencies, and scraped detailed information about each currency from CoinMarket's in-depth sites.",
       "tags": "Swift ∙ WebScraping ∙ CoinMarketCap API",
       "link": "https://github.com/thetajwar2003/CryptoMarket"
     },
     {
       "name": "Learning Made Simple (LMS)",
       "date": "02/23/2021",
-      "meta": "A learning management system, similar to Google Classroom, for students and teachers that makes remote learning easy. A teacher side applicaiton would allow the teacher to create classes, add students, make announcements, post assignments, and grade student's works. The student side application would allow the student to join a class, make announcements, and submit homework.",
+      "meta": "A learning management system, similar to Google Classroom, for students and teachers that makes remote learning easy. A teacher-side application would allow the teacher to create classes, add students, make announcements, post assignments, and grade student's works. The student-side application would allow the student to join a class, make announcements, and submit homework.",
       "tags": "Next.js ∙ Firebase ∙ TypeScript ∙ SemanticUI",
       "link": "https://github.com/thetajwar2003/learning-management-system"
     },
     {
       "name": "AI Flappy Bird",
       "date": "06/09/2020",
-      "meta": "An AI that learns and teaches itself the popular game Flappy Bird. It performed 48 generations, each with 60 Flappy Birds, before ending the simulation at 3 birds scoring 250 points",
+      "meta": "An AI that learns and teaches itself the popular game Flappy Bird. It performed 48 generations, each with 60 Flappy Birds, before ending the simulation at 3 birds scoring 250 points.",
       "tags": "Python ∙ PyGame ∙ NEAT-python",
       "link": "https://github.com/thetajwar2003/AI-Flappy-Bird-"
     },

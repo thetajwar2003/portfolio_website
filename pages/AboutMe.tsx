@@ -9,13 +9,13 @@ export default function AboutMe() {
             Hey, I'm Tajwar Rahman!
           </h1>
           <p className="mb-4 leading-relaxed">
-            I'm a freshman at the City College of New York, pursing a Bachelors
-            in Computer Science. I love combining programming and math to build
-            creative real-world applications. I specialize in creating programs
-            using React, Swift, or Python, and I'm always eager to learn
-            something new everyday. <br />
+            I'm a freshman at the City College of New York, pursuing a
+            Bachelor's in Computer Science. I love combining programming and
+            math to build creative real-world applications. I specialize in
+            creating programs using React, Swift, or Python, and I'm always
+            eager to learn something new every day. <br />
             <br /> Feel free to reach out to me through email or just message me
-            on Linkedin!
+            on LinkedIn!
           </p>
           <span className="inline-flex">
             <a
