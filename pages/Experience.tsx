@@ -1,11 +1,11 @@
 import React from "react";
 
-import { experiences } from "../data.json";
+import data from "../data.json";
 
 export default function Experience() {
   return (
     <section className="text-gray-400 body-font bg-gray-900" id="exp">
-      <div className="container px-5 mx-auto">
+      <div className="container px-5 py-24 pb-0 mx-auto">
         <div className="text-center mb-10">
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Experience
@@ -26,9 +26,12 @@ export default function Experience() {
             My most recent positions
           </p>
         </div>
-        {experiences.map((experience: any, index: any) => {
+        {data.experiences.map((experience: any, index: any) => {
           return (
-            <div className="container mx-auto flex items-center justify-center flex-col">
+            <div
+              className="container mx-auto flex items-center justify-center flex-col"
+              key={index}
+            >
               <div className="xl:w-3/5 md:w-1/2 p-4">
                 <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
                   <h3 className="tracking-widest text-indigo-400 text-xs font-medium title-font float-right">
@@ -46,7 +49,7 @@ export default function Experience() {
                       return index === experience.desc.length - 1 ? (
                         lines
                       ) : (
-                        <React.Fragment>
+                        <React.Fragment key={index}>
                           {lines}
                           <br />
                         </React.Fragment>
@@ -62,9 +65,9 @@ export default function Experience() {
                     <svg
                       fill="none"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       className="w-4 h-4 ml-2"
                       viewBox="0 0 24 24"
                     >
@@ -72,7 +75,7 @@ export default function Experience() {
                     </svg>
                   </a>
                 </div>
-                {index !== experiences.length - 1 ? (
+                {index !== data.experiences.length - 1 ? (
                   <div
                     style={{
                       borderLeft: " 6px solid #818cf8",

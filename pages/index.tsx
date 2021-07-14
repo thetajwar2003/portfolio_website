@@ -10,22 +10,24 @@ import Footer from "../components/Footer";
 import Experience from "./Experience";
 import Contact from "./Contact";
 import Education from "./Education";
-import { img } from "../data.json";
+import data from "../data.json";
 
 export default function Home() {
   return (
-    <Head>
-      {/* Open graph meta */}
-      <title>Tajwar Rahman</title>
-      <link rel="icon" href="/favicon.ico" />
-      <meta property="og:title" content="Tajwar Rahman" />
-      <meta
-        property="og:description"
-        content="My personal portfolio website."
-      />
-      <meta property="og:image" content={img} />
-      <meta property="og:url" content="tajwarrahman.com" />
-      <meta property="og:type" content="website" />
+    <>
+      <Head>
+        {/* Open graph meta */}
+        <title>Tajwar Rahman</title>
+        <link rel="icon" href="/favicon.ico" />
+        <meta property="og:title" content="Tajwar Rahman" />
+        <meta
+          property="og:description"
+          content="My personal portfolio website."
+        />
+        <meta property="og:image" content={data.img} />
+        <meta property="og:url" content="tajwarrahman.com" />
+        <meta property="og:type" content="website" />
+      </Head>
       <Header />
       <AboutMe />
       <Skills />
@@ -34,6 +36,6 @@ export default function Home() {
       <Education />
       <Contact />
       <Footer />
-    </Head>
+    </>
   );
 }

@@ -2,7 +2,10 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header className="text-gray-400 bg-indigo-500 body-font" id="head">
+    <header
+      className="text-gray-400 bg-indigo-500 body-font sticky top-0"
+      id="head"
+    >
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a
           className="flex title-font font-medium items-center text-white mb-4 md:mb-0"
@@ -18,18 +21,18 @@ export default function Header() {
           >
             <g
               fill="none"
-              fill-rule="nonzero"
+              fillRule="nonzero"
               stroke="none"
-              stroke-width="1"
-              stroke-linecap="butt"
-              stroke-linejoin="miter"
-              stroke-miterlimit="10"
-              stroke-dasharray=""
-              stroke-dashoffset="0"
-              font-family="none"
-              font-weight="none"
-              font-size="none"
-              text-anchor="none"
+              strokeWidth="1"
+              strokeLinecap="butt"
+              strokeLinejoin="miter"
+              strokeMiterlimit="10"
+              strokeDasharray=""
+              strokeDashoffset="0"
+              fontFamily="none"
+              fontWeight="none"
+              fontSize="none"
+              textAnchor="none"
             >
               <path d="M0,172v-172h172v172z" fill="none"></path>
               <g fill="#ffffff">

@@ -1,12 +1,12 @@
 import React from "react";
 
-import { projects } from "../data.json";
+import data from "../data.json";
 import { getProjectImages } from "../constant/Images";
 
 export default function Projects() {
   return (
     <section className="text-gray-400 bg-gray-900 body-font" id="proj">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container px-5 py-24 pb-0 mx-auto">
         <div className="text-center mb-20">
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Projects
@@ -28,9 +28,12 @@ export default function Projects() {
             My most recent projects
           </p>
         </div>
-        {projects.map((project: any, index: any) => {
+        {data.projects.map((project: any, index: any) => {
           return index % 2 === 0 ? (
-            <div className="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col">
+            <div
+              className="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col"
+              key={index}
+            >
               <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full text-indigo-400 bg-gray-800 flex-shrink-0">
                 {getProjectImages(project.name)}
               </div>
@@ -51,9 +54,9 @@ export default function Projects() {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     className="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
                   >
@@ -63,7 +66,10 @@ export default function Projects() {
               </div>
             </div>
           ) : (
-            <div className="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col">
+            <div
+              className="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col"
+              key={index}
+            >
               <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
                 <h1 className="text-white text-xl title-font font-medium mb-1">
                   {project.name}
@@ -81,9 +87,9 @@ export default function Projects() {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     className="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
                   >
