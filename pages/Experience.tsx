@@ -5,7 +5,7 @@ import data from "../data.json";
 export default function Experience() {
   return (
     <section className="text-gray-400 body-font bg-gray-900" id="exp">
-      <div className="container px-5 py-24 pb-0 mx-auto">
+      <div className="container px-5 py-24  mx-auto">
         <div className="text-center mb-10">
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Experience

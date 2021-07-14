@@ -6,7 +6,7 @@ import { getProjectImages } from "../constant/Images";
 export default function Projects() {
   return (
     <section className="text-gray-400 bg-gray-900 body-font" id="proj">
-      <div className="container px-5 py-24 pb-0 mx-auto">
+      <div className="container px-5 py-24 mx-auto">
         <div className="text-center mb-20">
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Projects

@@ -4,8 +4,8 @@ import data from "../data.json";
 
 export default function Education() {
   return (
-    <section className="text-gray-400 body-font bg-gray-900" id="edu">
-      <div className="container px-5 py-24 mx-auto">
+    <section className="text-gray-400 body-font bg-gray-900">
+      <div className="container px-5 py-24 mx-auto" id="edu">
         <div className="container px-5 mx-auto">
           <div className="text-center mb-10">
             <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
