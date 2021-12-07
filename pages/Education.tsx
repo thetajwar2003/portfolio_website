@@ -23,9 +23,9 @@ export default function Education() {
                 />
               </div>
             </h1>
-            <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-400 text-opacity-80">
+            {/* <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-400 text-opacity-80">
               My academic progress
-            </p>
+            </p> */}
           </div>
         </div>
         <div className="lg:w-1/2 mx-auto -my-8 divide-y-2 divide-gray-800">

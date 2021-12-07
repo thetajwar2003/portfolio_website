@@ -23,15 +23,15 @@ export default function Skills() {
               />
             </div>
           </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-400 text-opacity-80">
+          {/* <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-400 text-opacity-80">
             Some languages, frameworks, and technologies I have experience with
-          </p>
+          </p> */}
         </div>
         <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
           {data.skills.map((skill: any) => {
             return (
               <div
-                className="p-4 md:w-1/3 flex flex-col text-center items-center"
+                className="p-4 md:w-1/4 flex flex-col text-center items-center"
                 key={skill.name}
               >
                 <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-5 flex-shrink-0">

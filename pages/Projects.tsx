@@ -24,9 +24,9 @@ export default function Projects() {
               />
             </div>
           </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-400 text-opacity-80">
+          {/* <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-400 text-opacity-80">
             My most recent projects
-          </p>
+          </p> */}
         </div>
         {data.projects.map((project: any, index: any) => {
           return index % 2 === 0 ? (

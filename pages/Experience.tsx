@@ -22,9 +22,9 @@ export default function Experience() {
               />
             </div>
           </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-400 text-opacity-80">
+          {/* <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-400 text-opacity-80">
             My most recent positions
-          </p>
+          </p> */}
         </div>
         {data.experiences.map((experience: any, index: any) => {
           return (

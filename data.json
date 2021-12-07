@@ -7,7 +7,7 @@
   },
   "social": {
     "email": "tajwarr.cs@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/tajwar-rahman-aa30851a3/",
+    "linkedin": "https://www.linkedin.com/in/tajwarrahman/",
     "github": "https://github.com/thetajwar2003"
   },
   "skills": [
@@ -24,19 +24,39 @@
       "desc": "JavaScript, TypeScript, Node.js, Full Stack"
     },
     {
+      "name": "Cloud Technologies",
+      "desc": "AWS (Cloud Practitioner), GCP, MongoDB"
+    },
+    {
       "name": "SwiftUI",
       "desc": "APIs, CreateML, CoreData, UI/UX Design"
     },
     {
       "name": "Databases",
-      "desc": "MySQL, SQLite, PostgreSQL, Firebase, MongoDB"
+      "desc": "No-SQL, MySQL, SQLite, PostgreSQL, MongoDB"
+    },
+    {
+      "name": "Other Languages",
+      "desc": "Go, C#/C++, GraphQL, HTML, CSS"
     },
     {
       "name": "Other Softwares/Frameworks",
-      "desc": "C#/C++, GoLang, Kotlin, Git, .NET, Heroku"
+      "desc": "Git, TensorFlow, Django, Nest.js, .NET, Vercel, Heroku, Netlify, Jira"
     }
   ],
   "experiences": [
+    {
+      "company": "The Headstarter",
+      "website": "https://www.theheadstarter.com/",
+      "position": "Software Engineer Intern",
+      "desc": [
+        "- Built a platform where the 60+ students who have joined the fellowship can foster their talents and be sought after by leading software engineering companies and teams",
+        "- Reduced the number of clicks and time on pages for the average user by 8% by building custom React components",
+        "- Integrated AWS services such as Cognito, EC2, S3, SES, CloudFormation, and DynamoDB by working alongside the backend team, which increased productivity by 30%"
+      ],
+      "type": "Internship",
+      "date": "Aug 2021 - Present"
+    },
     {
       "company": "Slingshot Mentoring",
       "website": "https://slingshotahead.com/",
@@ -88,18 +108,25 @@
   ],
   "projects": [
     {
-      "name": "Crypto Market",
-      "date": "01/11/2021",
-      "meta": "An iOS price-tracking app for cryptocurrencies in the rapidly growing cryptocurrency space. Used CoinMarketCap's API to display accurate and real-time data about the top 100 trending cryptocurrencies, and scraped detailed information about each currency from CoinMarket's in-depth sites.",
-      "tags": "Swift ∙ WebScraping ∙ CoinMarketCap API",
-      "link": "https://github.com/thetajwar2003/CryptoMarket"
+      "name": "Dad Joke CLI",
+      "date": "11/2021",
+      "meta": "Developed a CLI using Go and Cobra that prints out random dad jokes using a “random” command and a “--term” flag. Fetched data from the icanhazdadjoke API using a get request.",
+      "tags": "GoLang ∙ Cobra",
+      "link": "https://github.com/thetajwar2003/dadjoke"
     },
     {
-      "name": "Learning Made Simple (LMS)",
-      "date": "02/23/2021",
-      "meta": "A learning management system, similar to Google Classroom, for students and teachers that makes remote learning easy. A teacher-side application would allow the teacher to create classes, add students, make announcements, post assignments, and grade student's works. The student-side application would allow the student to join a class, make announcements, and submit homework.",
-      "tags": "Next.js ∙ Firebase ∙ TypeScript ∙ SemanticUI",
-      "link": "https://github.com/thetajwar2003/learning-management-system"
+      "name": "AWS Bookstore",
+      "date": "11/2021",
+      "meta": "Built a simple bookstore website where users can view, buy, and sell books using React. Integrated Stripe API and AWS services (Cognito, S3, Lambda, CloudFormation) to handle checkout and user actions.",
+      "tags": "React ∙ AWS ∙ Stripe",
+      "link": "https://github.com/thetajwar2003/AWSBookstore"
+    },
+    {
+      "name": "CodeMatch",
+      "date": "9/2021",
+      "meta": "Worked with a team of 7 to build a platform to connect established software engineers with college students. Implemented a swipe to match mechanism in the React Native app and integrated ParseAPI to handle backend queries",
+      "tags": "ReactNative ∙ ParseAPI",
+      "link": "https://github.com/thetajwar2003/"
     },
     {
       "name": "AI Flappy Bird",
@@ -118,10 +145,10 @@
   ],
   "education": [
     {
-      "school": "City College of New York (CUNY)",
-      "graduation": "Expected: May 2025",
+      "school": "The City College of New York (CUNY)",
+      "graduation": "Expected: May 2024",
       "location": "New York City, NY",
-      "info": ["B.S. in Computer Science"]
+      "info": ["B.S. in Computer Science", "Affiliations: ACM"]
     },
     {
       "school": "The Bronx High School of Science",
