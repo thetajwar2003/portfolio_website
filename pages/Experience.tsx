@@ -44,6 +44,7 @@ export default function Experience() {
                   <h2 className="text-lg text-white font-medium title-font mb-4">
                     {experience.position}
                   </h2>
+
                   <p className="leading-relaxed text-base">
                     {experience.desc.map((lines: any, index: any) => {
                       return index === experience.desc.length - 1 ? (
@@ -56,24 +57,6 @@ export default function Experience() {
                       );
                     })}
                   </p>
-                  <a
-                    className="mt-3 text-indigo-400 inline-flex items-center"
-                    href={experience.website}
-                    target="_blank"
-                  >
-                    View Their Website
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      className="w-4 h-4 ml-2"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M5 12h14M12 5l7 7-7 7"></path>
-                    </svg>
-                  </a>
                 </div>
                 {index !== data.experiences.length - 1 ? (
                   <div

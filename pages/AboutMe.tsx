@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function AboutMe() {
   return (
@@ -9,11 +10,11 @@ export default function AboutMe() {
             Hey, I'm Tajwar Rahman!
           </h1>
           <p className="mb-4 leading-relaxed">
-            I'm a sophomore at the City College of New York, pursuing a
-            Bachelor's in Computer Science. I love combining programming and
-            math to build creative real-world applications. I specialize in
-            creating programs using React, Swift, or Python, and I'm always
-            eager to learn something new every day. <br />
+            I'm a junior at the City College of New York, pursuing a Bachelor's
+            in Computer Science. I love combining programming and math to build
+            creative real-world applications. I specialize in creating Backend,
+            Frontend, Mobile, Cloud, and DevOps applications. I'm always eager
+            to learn something new every day! <br />
             <br /> Feel free to reach out to me through email or just message me
             on LinkedIn!
           </p>
@@ -128,8 +129,9 @@ export default function AboutMe() {
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
             className="object-cover object-center rounded tajimg"
-            alt="hero"
-            src="https://lh3.googleusercontent.com/d/1VRT2jDkE4WqLKq2R_G38HHOfmTsgWxlp"
+            alt="pic of me"
+            // src="https://lh3.googleusercontent.com/d/1VRT2jDkE4WqLKq2R_G38HHOfmTsgWxlp"
+            src="/me.png"
           />
         </div>
       </div>
