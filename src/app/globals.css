@@ -31,3 +31,8 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Apply smooth scrolling globally */
+html {
+  @apply scroll-smooth;
+}
