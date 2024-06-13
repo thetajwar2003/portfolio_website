@@ -14,7 +14,7 @@ export default function Contact() {
           </h1>
           <p className="mx-auto leading-relaxed text-base">
             Whether you have a question or just want to say hi, my inbox is
-            always open. I'll try my best to get back to you!
+            always open. I&apos;ll try my best to get back to you!
           </p>
         </div>
         <div className="lg:w-1/2 md:w-2/3 mx-auto">
