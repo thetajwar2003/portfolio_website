@@ -15,7 +15,8 @@ export default function Footer() {
           <span className="ml-3 text-xl">Tajwar Rahman</span>
         </Link>
         <p className="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
-          © 2024 Tajwar Rahman
+          © 2024 Tajwar Rahman | Media Query Note: This site dynamically changes
+          its layout for any screen size
         </p>
         <ExternalLinks />
       </div>
