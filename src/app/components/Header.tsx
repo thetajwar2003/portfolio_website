@@ -26,7 +26,7 @@ export default function Header() {
           <Link className="mr-5 hover:text-white" href="#projects">
             Projects
           </Link>
-          <Link className="mr-5 hover:text-white" href="#contact">
+          <Link className="mr-5 hover:text-white" href="/contact">
             Contact
           </Link>
           <Link
